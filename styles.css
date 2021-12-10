@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@200;300;400;500;600&family=Open+Sans:wght@300;400;600&family=Poppins:wght@100;300;400;500;600;700&display=swap");
+* {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #EEE;
+}
+
+.heading {
+  font-size: 36px;
+  padding: 20px 0;
+  text-align: center;
+  color: blueviolet;
+}
+
+.box-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(300px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 15px;
+  padding: 20px;
+}
+
+.box-container .box {
+  background-color: #FFF;
+  border: 2px solid blueviolet;
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+}
+
+.box-container .box .icon {
+  margin-top: 10px;
+}
+
+.box-container .box .icon i {
+  margin: 10px 0;
+  font-size: 36px;
+  color: #333;
+}
+
+.box-container .box .title {
+  font-size: 20px;
+  color: blueviolet;
+}
+
+.box-container .box p {
+  font-size: 16px;
+  color: #333;
+  padding: 10px;
+}
+
+.box-container .box a {
+  font-size: 16px;
+  color: blueviolet;
+  padding: 10px 0;
+}
+
+.box-container .box a:hover {
+  color: #333;
+}
+/*# sourceMappingURL=styles.css.map */
